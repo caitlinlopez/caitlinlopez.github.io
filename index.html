@@ -9,6 +9,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Fasthand&display=swap" rel="stylesheet">
 		
 		<style>
+			footer {
+				padding: 2%;
+				font-family: 'Courier New', Courier, monospace;
+				color: #9CB2BD;
+			}
+
 			.nh {
 				font-family: "Fasthand", serif;
 				font-size: 69px;
@@ -20,6 +26,7 @@
 				margin-top: 2%;
 				text-align: center;
 				background-color: #C7BCC4;
+				font-family: 'Courier New', Courier, monospace;
 			}
 			
 			.gallery {
@@ -38,6 +45,15 @@
 			
 			.links:hover {
 				color: #9CB2BD;
+			}
+
+			.grey img {
+				border-radius: 3px;
+			}
+
+			.grey img:hover {
+				filter: grayscale(100%);
+				-webkit-filter: grayscale(100%);
 			}
 		</style>
   </head>
@@ -81,10 +97,10 @@
 	
 	<div class="container">
 		<div class="row">
-			<div class="gallery px-4 col-12 col-md-6 col-lg-3"><a href="neveragain.html"><img src="media/placeholder.jpg" alt="project" width="234px"></a></div>
-			<div class="gallery px-4 col-12 col-md-6 col-lg-3"><a href="yearbook.html"><img src="media/placeholder.jpg" alt="project" width="234px"></a></div>
-			<div class="gallery px-4 col-12 col-md-6 col-lg-3"><a href="coverage.html"><img src="media/placeholder.jpg" alt="project" width="234px"></a></div>
-			<div class="gallery px-4 col-12 col-md-6 col-lg-3"><a href="spec.html"><img src="media/placeholder.jpg" alt="project" width="234px"></a></div>
+			<div class="gallery px-4 col-12 col-md-6 col-lg-3 grey"><a href="viewpoint.html"><img src="media/viewpoint.png" alt="project" width="234px"></a></div>
+			<div class="gallery px-4 col-12 col-md-6 col-lg-3 grey"><a href="neveragain.html"><img src="media/neveragain.png" alt="project" width="234px"></a></div>
+			<div class="gallery px-4 col-12 col-md-6 col-lg-3 grey"><a href="bagongtaon.html"><img src="media/bagongtaon.png" alt="project" width="234px"></a></div>
+			<div class="gallery px-4 col-12 col-md-6 col-lg-3 grey"><a href="yearbook.html"><img src="media/yearbook.png" alt="project" width="234px"></a></div>
 		</div>
 	</div>
 	
@@ -93,4 +109,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
 	integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
   </body>
+
+  <footer>
+	<div class="container d-flex justify-content-center">
+		<p>© 2023 caitlin lopez</p>
+	</div>
+  </footer>
 </html>
